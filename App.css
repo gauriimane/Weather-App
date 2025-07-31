@@ -1,0 +1,70 @@
+/* App.css */
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background 0.5s ease-in-out;
+  background-color: #000000;
+}
+
+.content {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+  width: 70%; /* Set width to 70% */
+}
+
+button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 30%; /* Set width to 30% to match the input */
+  font-size: 16px; /* Set font size to match the input */
+}
+button:hover {
+  background: #0056b3;
+}
+
+.weather-info {
+  margin-top: 18px;
+}
+
+.weather-icon {
+  font-size: 80px; /* Increased font size */
+  margin: 10px 0;
+  color: #000;
+}
+
+.weather-info p .icon {
+  font-size: 32px; /* Increased font size for inline icons */
+  color: black; /* Set color to black */
+  vertical-align: middle; /* Align icons with text */
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
